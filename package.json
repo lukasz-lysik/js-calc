@@ -1,0 +1,24 @@
+{
+  "name": "js-calc",
+  "version": "1.0.0",
+  "description": "JavaScript implementation of a calculator",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests.js --reporter spec --bail"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukasz-lysik/js-calc.git"
+  },
+  "author": "Lukasz Lysik <llysik@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lukasz-lysik/js-calc/issues"
+  },
+  "homepage": "https://github.com/lukasz-lysik/js-calc#readme",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "javascript-state-machine": "^2.3.5",
+    "lodash": "^4.13.1"
+  }
+}
