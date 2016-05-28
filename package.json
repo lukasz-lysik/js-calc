@@ -17,8 +17,11 @@
   },
   "homepage": "https://github.com/lukasz-lysik/js-calc#readme",
   "dependencies": {
-    "chai": "^3.5.0",
     "javascript-state-machine": "^2.3.5",
     "lodash": "^4.13.1"
+  },
+  "devDependencies": {
+    "mocha": "^2.5.3",
+    "chai": "^3.5.0"
   }
 }
