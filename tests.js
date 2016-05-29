@@ -28,7 +28,7 @@ var testCases = _
 
 describe("Calculator", function(done) {
   testCases.forEach(function(tc) {
-    it(`should work for '${tc.input.join(' ')}' input`, function() {
+    it(`should work for input '${tc.input.join(' ')}'`, function() {
 
       var calc = new Calculator();
 
@@ -36,8 +36,8 @@ describe("Calculator", function(done) {
         calc.input(i);
       });
 
-      expect(calc.current).to.eql(tc.mainDisplay);
-      expect(calc.memory).to.eql(tc.additionalDisplay);
+      expect(calc.mainDisplay()).to.eql(tc.mainDisplay, 'Main display');
+      expect(calc.additionalDisplay()).to.eql(tc.additionalDisplay, 'Additional display');
     });
   });
 });

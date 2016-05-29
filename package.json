@@ -4,7 +4,7 @@
   "description": "JavaScript implementation of a calculator",
   "main": "index.js",
   "scripts": {
-    "test": "mocha tests.js --reporter spec --bail"
+    "test": "mocha tests.js --reporter spec"
   },
   "repository": {
     "type": "git",
